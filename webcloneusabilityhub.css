@@ -1,0 +1,696 @@
+/* Basic works */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-size:
+        3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section)
+}
+
+/* Basic works ends */
+
+
+/* Top banner starts here */
+.top_banner {
+    height: 6vh;
+    background-color: #e74694;
+    background-image: url(/assets/asset\ 29.png);
+    background-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Top banner ends here */
+
+
+/* main starts here */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80vw;
+}
+
+
+/* navbar tsats here */
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 21%;
+    float: left;
+
+}
+
+.logo {
+    width: 100%;
+}
+
+.navbar>ul {
+    height: 10vh;
+    width: 55%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>ul>li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.signin {
+    border: 2px solid #2294ed;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.signup {
+    border: 2px solid #409eff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #409eff;
+    color: white;
+    margin-left: 20px;
+}
+
+/* navbar ends here */
+
+/* Home content starts here */
+.home-content {
+    height: 70vh;
+    width: 100%;
+
+}
+
+.home-text {
+    width: 45%;
+    height: 100%;
+
+    float: left;
+}
+
+.home-text>h2 {
+    font-size: 3rem;
+    padding-top: 30%;
+
+}
+
+.gettingstarted>a {
+    display: inline-block;
+    border: 2px solid #2294ed;
+    background-color: #409eff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.home-image {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    float: right;
+}
+
+.home-image>img {
+    width: 90%;
+    height: 90%;
+}
+
+.text-box {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box>p{
+    z-index: 1;
+}
+/* Home content ends here */
+
+/* Partnership starts here */
+.partnerimg-box {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.partnerimg {
+    height: 100%;
+    width: 15%;
+    padding-left: 30px;
+}
+
+/* Partnership ends here */
+
+/* Swiss section starts here */
+#swisssection {
+    height: 100vh;
+    width: 100%;
+    background: url('/assets/asset\ 30.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#swisssection>.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+}
+#swisssection>.seeallfeatures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featurebox {
+    margin-top: 20px;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.features{
+    height: 25vh;
+    width: 20vw;
+}
+.featureimgbox, .featureheadingbox{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureimgbox>img{
+    height: 100%;
+}
+.features>p{
+    text-align: center;
+}
+.lmbutton{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learnmore{
+    border: 2px solid #2294ed;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: black;
+}
+/* Swiss section ends here */
+
+/* Chartmogul section starts here */
+.chartmogul{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.chartmogul-image-box{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chartmogul-image-box>img{
+    height: 90%;
+}
+.chartmogul-text-box{
+    height: 90%;
+    width: 40%;
+}
+.chartmogul-header{
+    height: 50%;
+    width: 100%;
+}
+.chartmogul-header>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.chartmogul-footer{
+    height: 50%;
+    width: 100%;
+}
+.chartmogul-footer>p{
+    height: 60%;
+    background: url(/assets/asset\ 31.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: black;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.charetmogul-profile{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.chartmogulprofile-photo{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chartmogulprofile-photo>img{
+    height: 90%;
+}
+.chartmogulprofile-content{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+/* Chartmogul section ends here */
+
+/* Marketer section starts here */
+.marketers{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.marketer-text-box{
+    height: 90%;
+    width: 40%;
+}
+.marketer-header{
+    height: 50%;
+    width: 100%;
+}
+.marketer-header>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.marketer-footer{
+    height: 50%;
+    width: 100%;
+}
+.marketer-footer>img{
+    height: 15%;
+}
+.marketer-footer>p{
+    height: 60%;
+    background: url(/assets/asset\ 31.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: black;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.marketer-profile{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.marketerprofile-photo{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marketerprofile-photo>img{
+    height: 90%;
+}
+.marketerprofile-content{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+.marketer-img-box{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marketer-img-box>img{
+    height: 90%;
+}
+/* Marketer section ends here */
+
+/* Product manager starts here */
+.productmanager{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.productmanager-image-box{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productmanager-image-box>img{
+    height: 90%;
+}
+.productmanager-text-box{
+    height: 90%;
+    width: 40%;
+}
+.productmanager-header{
+    height: 50%;
+    width: 100%;
+}
+.productmanager-header>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.productmanager-footer{
+    height: 50%;
+    width: 100%;
+}
+.productmanager-footer>img{
+    height: 10%;
+}
+.productmanager-footer>p{
+    height: 60%;
+    background: url(/assets/asset\ 31.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: black;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.productmanager-profile{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.productmanagerprofile-photo{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productmanagerprofile-photo>img{
+    height: 90%;
+}
+.productmanagerprofile-content{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+.productmanager-img-box{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productmanager-img-box>img{
+    height: 90%;
+}
+/* Product manager ends here */
+
+/* Examples section starts here */
+.examples{
+    height: 60vh;
+    width: 100%;
+    margin-top: 5%;
+}
+.examples-header{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.examples-footer{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.example1,.example2,.example3,.example4{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.example-text{
+    background-color: rgb(101, 97, 97);
+}
+.example-text>h4,.example2>h4,.example3>h4,.example4>h4{
+    opacity: 1;
+    color: white;
+}
+.example1{
+    background: url(/assets/depositphotos_98717878-stock-photo-man-working-on-his-laptop.jpg);
+    background-size: cover;
+}
+.example2{
+    background: url(/assets/happy-professional-team-diverse-business-people-office-vertical-portrait-professional-diverse-international-team-young-business-288530879.webp);
+    background-size: cover;
+}
+.example3{
+    background: url(/assets/random-collage-texture-banner-eroded-wall-photograph-urban-background-typography-57279604.webp);
+    background-size: cover;
+}
+.example4{
+    background: url(/assets/vertical-shot-of-a-person-writing-with-a-feather-on-a-scroll-2APRFJH.jpg);
+    background-size: cover;}
+/* Examples section ends here */
+
+/* Value section starts here */
+.value{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 5%;
+    background-color: #183b56;
+}
+.value-container{
+    height: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+}
+.value-text{
+    height: 100%;
+    width: 50%;
+}
+.value-text>h2, .value-text>h3{
+    padding-top: 10%;
+    color: white;
+}
+.value-text>p{
+    padding-top: 3%;
+    color: #b9cde4;
+}
+.value-text>ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.value-text>ul>li{
+    list-style:disc;
+    color: #b9cde4;
+}
+.value-button{
+    height: 10vh;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    align-items:center;
+}
+.value-button>span>p{
+    color: white;
+}
+.value-button>span{
+    margin: 3%;
+}
+.value-button>p>.signin{
+    color: white;
+    border: 2px solid white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.value-image{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value-image>img{
+height: 100%;
+width: 100%;
+}
+/* Value section ends here */
+
+/*Testing section starts here */
+.testing{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items:end;
+    margin-top: 5%;
+}
+.testing-content{
+    text-align: center;
+}
+.testing-content>p{
+    padding: 10% 0;
+    color: black;
+}
+/*Testing section ends here */
+
+/* Actual footer starts here */
+.actualfooter{
+    height: 70vh;
+    width: 100vw;
+    background-color: #ebf2fa;
+}
+.footer-container{
+    height: 70vh;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text-box{
+    height: 100%;
+    width: 20%;
+    padding-top: 5%;
+}
+.footer-text-box>ul>li{
+    line-height: 3rem;
+}
+.footer-text-box>ul>li>a:hover{
+    color: #2294ed;
+}
+.footer-logo-box{
+    height: 100%;
+    width: 30%;
+    padding-top: 5%;
+}
+.footer-logo-box>img{
+    width: 90%;
+}
+.footer>img{
+    width: 100%;
+}
+/* Actual footer ends here */
+
+/* Sub footer starts here */
+.subfooter{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b9cde4;
+    gap: 10%;
+}
+.subfooter-links{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subfooter-links>ul{
+    display: flex;
+}
+.subfooter-links>ul>li>a{
+    font-size:smaller;
+    color: #183b56;
+}
+.subfooter-links>ul>li>a:hover{
+    color: #2294ed;
+}
+.contact-icons{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Sub footer ends here */
